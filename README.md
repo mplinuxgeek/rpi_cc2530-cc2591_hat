@@ -9,11 +9,11 @@ lrwxrwxrwx 1 root root 5 May 27 14:56 /dev/serial0 -> ttyS0
 lrwxrwxrwx 1 root root 7 May 27 14:56 /dev/serial1 -> ttyAMA0
 ```
 
-Model|Serial
-------------- | -------------
-Zero|/dev/ttyAMA0
-Zero W|/dev/ttyS0
-1|/dev/ttyAMA0
-2|/dev/ttyAMA0
-3|/dev/ttyS0
-4|/dev/ttyS0
+Model|Serial|Tested
+------------- | ------------- | -------------
+Zero|/dev/ttyAMA0|
+Zero W|/dev/ttyS0|
+1|/dev/ttyAMA0|
+2|/dev/ttyAMA0|Yes
+3|/dev/ttyS0|Yes
+4|/dev/ttyS0|
