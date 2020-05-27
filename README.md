@@ -1,5 +1,5 @@
 
-![Alt text](images/screenshot.png?raw=true "Title")
+![Alt text](images/pi_cc2531.jpg?raw=true "Title")
 
 # Raspberry Pi UART
 
