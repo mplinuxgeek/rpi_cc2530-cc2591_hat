@@ -1,6 +1,6 @@
 # Raspberry Pi UART
 
-Add enable_uart=1 to enable_uart=1
+Add enable_uart=1 to /boot/config.txt
 
 On devices with built in bluetooth (Zero, 3, 4) the bluetooth module uses /dev/serial1 which is a link that points to /dev/ttyAMA0.
 
