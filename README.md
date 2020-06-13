@@ -26,7 +26,8 @@ Zero W|/dev/ttyS0|
 
 
 
-```git clone https://github.com/jmichault/flash_cc2531.git
+```
+git clone https://github.com/jmichault/flash_cc2531.git
 ./cc_chipid
 ./cc_read firmware_$(date +"%m_%d_%Y").hex
 ./cc_erase
