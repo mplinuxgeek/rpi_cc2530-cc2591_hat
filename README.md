@@ -23,3 +23,19 @@ Zero W|/dev/ttyS0|
 2|/dev/ttyAMA0|Yes
 3|/dev/ttyS0|Yes
 4|/dev/ttyS0|
+
+
+
+git clone https://github.com/jmichault/flash_cc2531.git
+./cc_chipid
+./cc_read firmware_$(date +"%m_%d_%Y").hex
+./cc_erase
+./cc_write CC2530ZNP-Prod.hex
+
+
+
+
+DS18B20
+
+https://github.com/adafruit/Adafruit_Learning_System_Guides/blob/master/Raspberry_Pi_DS18B20_Temperature_Sensing/thermometer.py
+
