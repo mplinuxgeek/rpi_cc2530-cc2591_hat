@@ -2,7 +2,7 @@
 
 This repo provides documentation and design files (when they are ocmplate) for building a CC2530+CC2591 hat for Raspberry Pi, the Hat provides both flashing and serial communication, so there is no need for a CC Debug or a USB to Serial dongle.
 
-![Alt text](images/pi_cc2531.jpg?raw=true "Title")
+![Alt text](images/Zigbeegw.jpg?raw=true "Title")
 
 # Raspberry Pi UART
 
