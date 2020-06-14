@@ -3,15 +3,15 @@
 This repo provides documentation and design files (when they are complate) for building a CC2530+CC2591 hat for Raspberry Pi.
 
 Features:
-Serial comunnication with the CC module
-Data lines for flashing firmware
-Onboard 3.3v 500mA low drop out regulator
-Jumper for selecting between the onboard regulator or Raspberry Pi's regulator
-Power LED
-RX and TX LEDs
-DS18B20 footprint for onboard sensor and header for external sensors
-2x I2C headers
-1x SPI header
+- Serial comunnication with the CC module
+- Data lines for flashing firmware
+- Onboard 3.3v 500mA low drop out regulator
+- Jumper for selecting between the onboard regulator or Raspberry Pi's regulator
+- Power LED
+- RX and TX LEDs
+- DS18B20 footprint for onboard sensor and header for external sensors
+- 2x I2C headers
+- 1x SPI header
 
 ![Alt text](images/Zigbeegw.jpg?raw=true "Title")
 
