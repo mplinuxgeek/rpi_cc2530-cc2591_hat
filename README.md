@@ -9,7 +9,7 @@ Features:
 - Jumper for selecting between the onboard regulator or Raspberry Pi's regulator
 - Power LED
 - RX and TX LEDs
-- DS18B20 footprint for onboard sensor and header for external sensors
+- DS18B20 footprint for onboard sensor and header for external sensors with pullup resistor
 - 2x I2C headers
 - 1x SPI header
 
