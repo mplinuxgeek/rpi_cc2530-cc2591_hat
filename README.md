@@ -52,3 +52,30 @@ DS18B20
 
 https://github.com/adafruit/Adafruit_Learning_System_Guides/blob/master/Raspberry_Pi_DS18B20_Temperature_Sensing/thermometer.py
 
+
+
+I2C
+Add the below to /boot/config.txt
+```
+dtparam=i2c1=on
+```
+
+Reboot Pi
+Run the below command:
+```
+lsmod | grep i2c
+```
+
+if i2c-dev is not listed run the below command:
+```
+sudo modprobe i2c-dev
+```
+
+SPI
+Add the below to /boot/config.txt
+```
+dtparam=spi=on
+```
+
+
+
