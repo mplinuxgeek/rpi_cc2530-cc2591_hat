@@ -66,9 +66,22 @@ Run the below command:
 lsmod | grep i2c
 ```
 
-if i2c-dev is not listed run the below command:
+if i2c-dev is not listed run the below command, then add i2c-dev to /etc/modules:
 ```
 sudo modprobe i2c-dev
+```
+Confirm I2C devices are detected with the below command:
+```
+$ sudo i2cdetect -y 1
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
+10: -- -- -- -- -- -- -- -- 18 -- -- -- -- -- -- -- 
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+70: -- -- -- -- -- -- -- --                      
 ```
 
 SPI
