@@ -48,13 +48,13 @@ git clone https://github.com/jmichault/flash_cc2531.git
 
 
 
-DS18B20
+# DS18B20
 
 https://github.com/adafruit/Adafruit_Learning_System_Guides/blob/master/Raspberry_Pi_DS18B20_Temperature_Sensing/thermometer.py
 
 
 
-I2C
+# I2C
 Add the below to /boot/config.txt
 ```
 dtparam=i2c1=on
@@ -84,7 +84,7 @@ $ sudo i2cdetect -y 1
 70: -- -- -- -- -- -- -- --                      
 ```
 
-SPI
+# SPI
 Add the below to /boot/config.txt
 ```
 dtparam=spi=on
