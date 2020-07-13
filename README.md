@@ -13,6 +13,19 @@ Features:
 - 2x I2C headers
 - 1x SPI header
 
+Passive component BOM:
+
+Part|Qty
+------------- | -------------
+MIC5216|1
+10 µF 0603 Cap|1
+0603 LED Red|1
+0603 LED Green|1
+0603 LED Orage|1
+4K7 0603 Resistor|2
+56 0603 Resistor|2
+
+
 ![Alt text](images/Zigbeegw.jpg?raw=true "Title")
 
 # Raspberry Pi UART
