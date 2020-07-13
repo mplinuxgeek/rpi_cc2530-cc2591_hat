@@ -13,7 +13,7 @@ Features:
 - 2x I2C headers
 - 1x SPI header
 
-Passive component BOM:
+Component BOM:
 
 Part|Qty
 ------------- | -------------
