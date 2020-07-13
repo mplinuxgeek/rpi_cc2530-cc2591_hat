@@ -17,7 +17,7 @@ Passive component BOM:
 
 Part|Qty
 ------------- | -------------
-MIC5216|1
+MIC5216 3.3V 500mA LDO Regulator |1
 10 µF 0603 Cap|1
 0603 LED Red|1
 0603 LED Green|1
