@@ -51,7 +51,7 @@ Zero W|/dev/ttyS0|
 
 
 
-# Install flash_cc2531
+# Install flash_cc2531 and flash firmware
 ```
 sudo apt-get install wiringpi
 
@@ -105,7 +105,9 @@ verifying page 128/128.
  flash OK.
 ```
 
-The CC module is now ready to be used, Zigbee2mqtt can now be installed.
+If the process is stuck at "writing page 1/128" then you may have skipped the erase step, repeat the erase before trying the write again.
+
+The CC module is now ready to be used and Zigbee2mqtt can now be installed.
 
 
 # DS18B20
