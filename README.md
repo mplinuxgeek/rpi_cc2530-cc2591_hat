@@ -89,12 +89,23 @@ Now we can flash the ZStack firmware, first step is to erase the flash on the CC
 
 Now obtain a firmware image from Koenkk's github repo, https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator
 
-For my particular boards I used https://raw.githubusercontent.com/Koenkk/Z-Stack-firmware/master/coordinator/Z-Stack_Home_1.2/bin/default/CC2530_CC2591_DEFAULT_20190608.zip
+For my particular CC modules I used: https://raw.githubusercontent.com/Koenkk/Z-Stack-firmware/master/coordinator/Z-Stack_Home_1.2/bin/default/CC2530_CC2591_DEFAULT_20190608.zip
 
 ```
 ./cc_write CC2530ZNP-Prod.hex
 ```
 
+If all went well the output should look like this:
+```
+  ID = a524.
+  reading line 15490.
+  file loaded (15497 lines read).
+writing page 128/128.
+verifying page 128/128.
+ flash OK.
+```
+
+The CC module is now ready to be used, Zigbee2mqtt can now be installed.
 
 
 # DS18B20
