@@ -51,17 +51,37 @@ Zero W|/dev/ttyS0|
 
 
 
+# Install flash_cc2531
 ```
 sudo apt-get install wiringpi
 
 git clone https://github.com/jmichault/flash_cc2531.git
+```
 
+The flash_cc2531 repo contains pre-compiled binaries for Raspberry Pi so there is no need to compile the source.
+
+We can jump straight to testing:
+```
 cd flash_cc2531
 
-$ ./cc_chipid 
+./cc_chipid 
+```
+The chipid command should return something like:
+```
   ID = a524.
-  
-./cc_read firmware_$(date +"%m_%d_%Y").hex
+```
+
+To confirm its working as expected we can dump the current firmware:
+```
+$ ./cc_read firmware_$(date +"%m_%d_%Y").hex
+```
+The result should liook like this:
+```
+  ID = a524.
+ reading 256k/256k
+```
+
+
 ./cc_erase
 ./cc_write CC2530ZNP-Prod.hex
 ```
