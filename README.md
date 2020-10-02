@@ -52,8 +52,15 @@ Zero W|/dev/ttyS0|
 
 
 ```
+sudo apt-get install wiringpi
+
 git clone https://github.com/jmichault/flash_cc2531.git
-./cc_chipid
+
+cd flash_cc2531
+
+$ ./cc_chipid 
+  ID = a524.
+  
 ./cc_read firmware_$(date +"%m_%d_%Y").hex
 ./cc_erase
 ./cc_write CC2530ZNP-Prod.hex
