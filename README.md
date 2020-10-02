@@ -75,14 +75,20 @@ To confirm its working as expected we can dump the current firmware:
 ```
 $ ./cc_read firmware_$(date +"%m_%d_%Y").hex
 ```
+
 The result should liook like this:
 ```
   ID = a524.
  reading 256k/256k
 ```
 
-
+Now we can flash the ZStack firmware, first step is to erase the flash on the CC module:
+```
 ./cc_erase
+```
+
+Now obtain a firmware image from Koenkk's github repo, https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator
+```
 ./cc_write CC2530ZNP-Prod.hex
 ```
 
