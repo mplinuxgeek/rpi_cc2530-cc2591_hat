@@ -88,6 +88,7 @@ Now we can flash the ZStack firmware, first step is to erase the flash on the CC
 ```
 
 Now obtain a firmware image from Koenkk's github repo, https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator
+
 For my particular boards I used https://raw.githubusercontent.com/Koenkk/Z-Stack-firmware/master/coordinator/Z-Stack_Home_1.2/bin/default/CC2530_CC2591_DEFAULT_20190608.zip
 
 ```
