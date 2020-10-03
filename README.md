@@ -49,7 +49,24 @@ Zero W|/dev/ttyS0|
 3|/dev/ttyS0|Yes
 4|/dev/ttyS0|
 
+You may need to disable the serial console
 
+# Disable Linux serial console
+https://www.raspberrypi.org/documentation/configuration/uart.md
+
+By default, the primary UART is assigned to the Linux console. If you wish to use the primary UART for other purposes, you must reconfigure Raspberry Pi OS. This can be done by using raspi-config:
+
+Start raspi-config: `sudo raspi-config`.
+
+Select option 5 - interfacing options.
+
+Select option P6 - serial.
+
+At the prompt Would you like a login shell to be accessible over serial? answer 'No'
+
+At the prompt Would you like the serial port hardware to be enabled? answer 'Yes'
+
+Exit raspi-config and reboot the Pi for changes to take effect.
 
 # Install flash_cc2531 and flash firmware
 ```
