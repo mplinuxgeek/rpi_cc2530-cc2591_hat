@@ -34,7 +34,7 @@ RPI|2x20 2.54mm female header|1
 ^|1x20 2.54mm male header|1
 J1|2 pin jumper|1
 
-* P1 and P2 are not marked on the board but only fit in one place.
+\* P1 and P2 are not marked on the board but only fit in one place.
 
 ^ 1x20 pin header strip to be cut up and used in various sockets on the board.
 
