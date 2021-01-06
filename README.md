@@ -15,16 +15,24 @@ Features:
 
 Component BOM:
 
-Part|Qty
-------------- | -------------
-MIC5216 3.3V 500mA LDO Regulator |1
-10 µF 0603 Cap|1
-0603 LED Red|1
-0603 LED Green|1
-0603 LED Orage|1
-4K7 0603 Resistor|2
-56 0603 Resistor|2
+Part|Name|Qty
+------------- | ------------- | -------------
+U1|MIC5216 3.3V 500mA LDO Regulator|1
+C1|10 µF 0603 Capacitor|1
+C3|1 µF 0603 Tantalum Capacitor|1
+3V3|0603 LED Red|1
+TX|0603 LED Green|1
+RX|0603 LED Orage|1
+R1,R4|4K7 0603 Resistor|2
+R2,R3|56 0603 Resistor|2
+U2|Optional DS18B20 on board|1
+P1*|2x6 2.54mm male header|1
+P2*|2x7 2.54mm male header|1
+|2x20 2.54mm female header|1
+^|1x20 2.54mm male header
 
+* P1 and P2 are not marked on the board but only fit in one place.
+^ 1x20 pin header strip to be cut up and used in various sockets on the board.
 
 ![Alt text](images/Zigbeegw.jpg?raw=true "Title")
 
