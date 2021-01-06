@@ -2,7 +2,7 @@
 
 ![Alt text](images/Zigbeegw.jpg?raw=true "Title")
 
-This repo provides documentation and design files (when they are complate) for building a CC2530+CC2591 hat for Raspberry Pi.
+This repo provides documentation and design files (when they are complete) for building a CC2530+CC2591 hat for Raspberry Pi.
 
 Features:
 - Serial comunnication with the CC module
