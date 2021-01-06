@@ -28,7 +28,7 @@ R2,R3|56 0603 Resistor|2
 U2|Optional DS18B20 on board|1
 P1*|2x6 2.54mm male header|1
 P2*|2x7 2.54mm male header|1
- |2x20 2.54mm female header|1
+RPI|2x20 2.54mm female header|1
 ^|1x20 2.54mm male header
 
 * P1 and P2 are not marked on the board but only fit in one place.
