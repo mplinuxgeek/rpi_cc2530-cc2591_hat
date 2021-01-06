@@ -1,5 +1,7 @@
 # CC2530+CC2591 hat
 
+![Alt text](images/Zigbeegw.jpg?raw=true "Title")
+
 This repo provides documentation and design files (when they are complate) for building a CC2530+CC2591 hat for Raspberry Pi.
 
 Features:
@@ -37,7 +39,7 @@ J1|2 pin jumper|1
 
 J1 (labled as "Pi - Reg") is used to select between the Raspberry Pi's 3.3v rail or the onboard regulator, this was used for prototyping and could be bypassed by jumping a piece of wire between center pad and Reg pad.
 
-![Alt text](images/Zigbeegw.jpg?raw=true "Title")
+
 
 # Raspberry Pi UART
 
