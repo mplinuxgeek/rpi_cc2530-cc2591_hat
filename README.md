@@ -29,10 +29,13 @@ U2|Optional DS18B20 on board|1
 P1*|2x6 2.54mm male header|1
 P2*|2x7 2.54mm male header|1
 RPI|2x20 2.54mm female header|1
-^|1x20 2.54mm male header
+^|1x20 2.54mm male header|1
+J1|2 pin jumper|1
 
 * P1 and P2 are not marked on the board but only fit in one place.
 ^ 1x20 pin header strip to be cut up and used in various sockets on the board.
+
+J1 (labled as "Pi - Reg") is used to select between the Raspberry Pi's 3.3v rail or the onboard regulator, this was used for prototyping and could be bypassed by jumping a piece of wire between center pad and Reg pad.
 
 ![Alt text](images/Zigbeegw.jpg?raw=true "Title")
 
