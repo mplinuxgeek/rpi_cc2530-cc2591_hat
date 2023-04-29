@@ -81,6 +81,18 @@ At the prompt Would you like the serial port hardware to be enabled? answer 'Yes
 
 Exit raspi-config and reboot the Pi for changes to take effect.
 
+# Flashing without a hat
+
+If you don't have a hat you can connect a CC2530 to a Raspberry Pi using the below pins.
+
+CC2530|Raspberry Pi
+------------- | -------------
+GND|Pin 39 (GND)
+VCC|Pin 01 (3.3V)
+RES or RST or R (reset)|Pin 35 (GPIO24, BCM19)
+P22 (DC)|Pin 36 (GPIO27, BCM16)
+P21 (DD)|Pin 38 (GPIO28, BCM20)
+
 # Install flash_cc2531 and flash firmware
 ```
 sudo apt-get install wiringpi
